@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{95786227-1BB2-4033-B4ED-E85F4C781FDF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>LoginForUsers.My.MyApplication</StartupObject>
+    <RootNamespace>LoginForUsers</RootNamespace>
+    <AssemblyName>LoginForUsers</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>LoginForUsers.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>LoginForUsers.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classlistDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>classlistDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EditTeacher.Designer.vb">
+      <DependentUpon>EditTeacher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditTeacher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmailSlip.Designer.vb">
+      <DependentUpon>EmailSlip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmailSlip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayRegister.Designer.vb">
+      <DependentUpon>DisplayRegister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClass.Designer.vb">
+      <DependentUpon>FormClass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormClass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegister.Designer.vb">
+      <DependentUpon>FormRegister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStudent.Designer.vb">
+      <DependentUpon>FormStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSubject.Designer.vb">
+      <DependentUpon>FormSubject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSubject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTeacher.Designer.vb">
+      <DependentUpon>FormTeacher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTeacher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUser.Designer.vb">
+      <DependentUpon>FormUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LIRADATABASEDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIRADATABASEDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIRADATABASEDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIRADATABASEDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIRADATABASEDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIRADATABASEDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIRADATABASEDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIRADATABASEDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIRADATABASEDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIRADATABASEDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIRADATABASEDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIRADATABASEDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIRADATABASEDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIRADATABASEDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIRADATABASEDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIRADATABASEDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIRADATABASEDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIRADATABASEDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LiraDatabaseFinal.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LiraDatabaseFinal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LiraDatabaseLatest.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LiraDatabaseLatest.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LiraDatabaseUser.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LiraDatabaseUser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ListClass.Designer.vb">
+      <DependentUpon>ListClass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListClass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListRegistered.Designer.vb">
+      <DependentUpon>ListRegistered.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListRegistered.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListRegistrar.Designer.vb">
+      <DependentUpon>ListRegistrar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListRegistrar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListStaff.Designer.vb">
+      <DependentUpon>ListStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListStudent.Designer.vb">
+      <DependentUpon>ListStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListStudents.Designer.vb">
+      <DependentUpon>ListStudents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListStudents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageUser.Designer.vb">
+      <DependentUpon>ManageUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="studentinfoDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>studentinfoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="userlogin1DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>userlogin1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="userlogin1DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>userlogin1DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="userlogin1DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>userlogin1DataSet2.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EditTeacher.resx">
+      <DependentUpon>EditTeacher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmailSlip.resx">
+      <DependentUpon>EmailSlip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayRegister.resx">
+      <DependentUpon>DisplayRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClass.resx">
+      <DependentUpon>FormClass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegister.resx">
+      <DependentUpon>FormRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStudent.resx">
+      <DependentUpon>FormStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSubject.resx">
+      <DependentUpon>FormSubject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTeacher.resx">
+      <DependentUpon>FormTeacher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUser.resx">
+      <DependentUpon>FormUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListClass.resx">
+      <DependentUpon>ListClass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListRegistered.resx">
+      <DependentUpon>ListRegistered.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListRegistrar.resx">
+      <DependentUpon>ListRegistrar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListStaff.resx">
+      <DependentUpon>ListStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListStudent.resx">
+      <DependentUpon>ListStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListStudents.resx">
+      <DependentUpon>ListStudents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageUser.resx">
+      <DependentUpon>ManageUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="classlistDataSet.xsc">
+      <DependentUpon>classlistDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="classlistDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>classlistDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="classlistDataSet.xss">
+      <DependentUpon>classlistDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet.xsc">
+      <DependentUpon>LIRADATABASEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIRADATABASEDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIRADATABASEDataSet.xss">
+      <DependentUpon>LIRADATABASEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet1.xsc">
+      <DependentUpon>LIRADATABASEDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIRADATABASEDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIRADATABASEDataSet1.xss">
+      <DependentUpon>LIRADATABASEDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet2.xsc">
+      <DependentUpon>LIRADATABASEDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIRADATABASEDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIRADATABASEDataSet2.xss">
+      <DependentUpon>LIRADATABASEDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet3.xsc">
+      <DependentUpon>LIRADATABASEDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIRADATABASEDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIRADATABASEDataSet3.xss">
+      <DependentUpon>LIRADATABASEDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet4.xsc">
+      <DependentUpon>LIRADATABASEDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIRADATABASEDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIRADATABASEDataSet4.xss">
+      <DependentUpon>LIRADATABASEDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet5.xsc">
+      <DependentUpon>LIRADATABASEDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIRADATABASEDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIRADATABASEDataSet5.xss">
+      <DependentUpon>LIRADATABASEDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet6.xsc">
+      <DependentUpon>LIRADATABASEDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIRADATABASEDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIRADATABASEDataSet6.xss">
+      <DependentUpon>LIRADATABASEDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet7.xsc">
+      <DependentUpon>LIRADATABASEDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIRADATABASEDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIRADATABASEDataSet7.xss">
+      <DependentUpon>LIRADATABASEDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet8.xsc">
+      <DependentUpon>LIRADATABASEDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="LIRADATABASEDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIRADATABASEDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIRADATABASEDataSet8.xss">
+      <DependentUpon>LIRADATABASEDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="LiraDatabaseFinal.xsc">
+      <DependentUpon>LiraDatabaseFinal.xsd</DependentUpon>
+    </None>
+    <None Include="LiraDatabaseFinal.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LiraDatabaseFinal.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LiraDatabaseFinal.xss">
+      <DependentUpon>LiraDatabaseFinal.xsd</DependentUpon>
+    </None>
+    <None Include="LiraDatabaseLatest.xsc">
+      <DependentUpon>LiraDatabaseLatest.xsd</DependentUpon>
+    </None>
+    <None Include="LiraDatabaseLatest.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LiraDatabaseLatest.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LiraDatabaseLatest.xss">
+      <DependentUpon>LiraDatabaseLatest.xsd</DependentUpon>
+    </None>
+    <None Include="LiraDatabaseUser.xsc">
+      <DependentUpon>LiraDatabaseUser.xsd</DependentUpon>
+    </None>
+    <None Include="LiraDatabaseUser.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LiraDatabaseUser.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LiraDatabaseUser.xss">
+      <DependentUpon>LiraDatabaseUser.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="studentinfoDataSet.xsc">
+      <DependentUpon>studentinfoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="studentinfoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>studentinfoDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="studentinfoDataSet.xss">
+      <DependentUpon>studentinfoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="userlogin1DataSet.xsc">
+      <DependentUpon>userlogin1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="userlogin1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>userlogin1DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="userlogin1DataSet.xss">
+      <DependentUpon>userlogin1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="userlogin1DataSet1.xsc">
+      <DependentUpon>userlogin1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="userlogin1DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>userlogin1DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="userlogin1DataSet1.xss">
+      <DependentUpon>userlogin1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="userlogin1DataSet2.xsc">
+      <DependentUpon>userlogin1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="userlogin1DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>userlogin1DataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="userlogin1DataSet2.xss">
+      <DependentUpon>userlogin1DataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lira %28BG%29.png" />
+    <None Include="Resources\Lira %28BG 2%29.png" />
+    <None Include="Resources\59084-200.png" />
+    <None Include="Resources\ref.png" />
+    <None Include="Resources\refres1.png" />
+    <None Include="Resources\WhatsApp Image 2021-11-10 at 11.09.38 PM.jpeg" />
+    <Content Include="userlogin1.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

@@ -1,0 +1,1521 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LoginForUsers
+</name>
+</assembly>
+<members>
+<member name="T:LoginForUsers.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:LoginForUsers.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:LoginForUsers.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:LoginForUsers.My.Resources.Resources._59084_200">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LoginForUsers.My.Resources.Resources.Lira__BG_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LoginForUsers.My.Resources.Resources.Lira__BG_2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LoginForUsers.My.Resources.Resources.ref">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LoginForUsers.My.Resources.Resources.refres1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LoginForUsers.My.Resources.Resources.WhatsApp_Image_2021_11_10_at_11_09_38_PM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:LoginForUsers.classlistDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.classlistDataSet.ClassListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.classlistDataSet.ClassListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.classlistDataSet.ClassListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.classlistDataSetTableAdapters.ClassListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.classlistDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.classlistDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.classlistDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.classlistDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.classlistDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.classlistDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.classlistDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.classlistDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.classlistDataSetTableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.classlistDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.classlistDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.classlistDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet.ClassListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet.LoginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet.StudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet.ClassListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet.LoginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet.StudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet.ClassListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet.LoginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet.StudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSetTableAdapters.ClassListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSetTableAdapters.LoginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSetTableAdapters.StudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.LIRADATABASEDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.LIRADATABASEDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.LIRADATABASEDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSetTableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.LIRADATABASEDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet1.TeachersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet1.TeachersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet1.TeachersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet1TableAdapters.TeachersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.LIRADATABASEDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.LIRADATABASEDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.LIRADATABASEDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet1TableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.LIRADATABASEDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet2.SubjectsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet2.SubjectsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet2.SubjectsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet2TableAdapters.SubjectsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.LIRADATABASEDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.LIRADATABASEDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.LIRADATABASEDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet2TableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.LIRADATABASEDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet3.SubjectsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet3.SubjectsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet3.SubjectsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet3TableAdapters.SubjectsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.LIRADATABASEDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.LIRADATABASEDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.LIRADATABASEDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet3TableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.LIRADATABASEDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet4.StudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet4.StudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet4.StudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet4TableAdapters.StudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.LIRADATABASEDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.LIRADATABASEDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.LIRADATABASEDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet4TableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.LIRADATABASEDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet5.StudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet5.SubjectsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet5.StudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet5.SubjectsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet5.StudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet5.SubjectsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet5TableAdapters.StudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet5TableAdapters.SubjectsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.LIRADATABASEDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.LIRADATABASEDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.LIRADATABASEDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet5TableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.LIRADATABASEDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet6.StudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet6.StudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet6.StudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet6TableAdapters.StudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.LIRADATABASEDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.LIRADATABASEDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.LIRADATABASEDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet6TableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.LIRADATABASEDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet7.RegisteredStudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet7.StudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet7.RegisteredStudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet7.StudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet7.RegisteredStudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet7.StudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet7TableAdapters.RegisteredStudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet7TableAdapters.StudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.LIRADATABASEDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.LIRADATABASEDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.LIRADATABASEDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet7TableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.LIRADATABASEDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet8.StudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet8.SubjectsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet8.StudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet8.SubjectsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet8.StudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet8.SubjectsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet8TableAdapters.StudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet8TableAdapters.SubjectsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.LIRADATABASEDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.LIRADATABASEDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.LIRADATABASEDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.LIRADATABASEDataSet8TableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.LIRADATABASEDataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.LIRADATABASEDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.ClassListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.LoginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.RegisteredStudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.StudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.SubjectsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.TeachersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.ClassListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.LoginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.RegisteredStudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.StudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.SubjectsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.TeachersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.ClassListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.LoginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.RegisteredStudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.StudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.SubjectsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinal.TeachersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinalTableAdapters.ClassListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinalTableAdapters.LoginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinalTableAdapters.RegisteredStudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinalTableAdapters.StudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinalTableAdapters.SubjectsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinalTableAdapters.TeachersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinalTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseFinalTableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.LiraDatabaseFinal,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseFinalTableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.LiraDatabaseFinal,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseFinalTableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.LiraDatabaseFinal,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseFinalTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseFinalTableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.LiraDatabaseFinal)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinalTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseFinalTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.ClassListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.LoginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.RegisteredStudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.StudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.SubjectsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.TeachersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.ClassListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.LoginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.RegisteredStudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.StudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.SubjectsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.TeachersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.ClassListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.LoginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.RegisteredStudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.StudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.SubjectsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatest.TeachersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatestTableAdapters.ClassListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatestTableAdapters.LoginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatestTableAdapters.RegisteredStudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatestTableAdapters.StudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatestTableAdapters.SubjectsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatestTableAdapters.TeachersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatestTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseLatestTableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.LiraDatabaseLatest,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseLatestTableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.LiraDatabaseLatest,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseLatestTableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.LiraDatabaseLatest,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseLatestTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseLatestTableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.LiraDatabaseLatest)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatestTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseLatestTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseUser">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseUser.LoginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseUser.LoginStaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseUser.LoginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseUser.LoginStaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseUser.LoginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseUser.LoginStaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseUserTableAdapters.LoginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseUserTableAdapters.LoginStaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseUserTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseUserTableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.LiraDatabaseUser,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseUserTableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.LiraDatabaseUser,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseUserTableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.LiraDatabaseUser,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseUserTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.LiraDatabaseUserTableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.LiraDatabaseUser)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseUserTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.LiraDatabaseUserTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.studentinfoDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.studentinfoDataSet.StudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.studentinfoDataSet.StudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.studentinfoDataSet.StudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.studentinfoDataSetTableAdapters.StudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.studentinfoDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.studentinfoDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.studentinfoDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.studentinfoDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.studentinfoDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.studentinfoDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.studentinfoDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.studentinfoDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.studentinfoDataSetTableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.studentinfoDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.studentinfoDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.studentinfoDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet.LoginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet.LoginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet.LoginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSetTableAdapters.LoginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.userlogin1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.userlogin1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.userlogin1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSetTableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.userlogin1DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet1.ClassListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet1.StudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet1.ClassListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet1.StudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet1.ClassListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet1.StudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet1TableAdapters.ClassListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet1TableAdapters.StudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.userlogin1DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.userlogin1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.userlogin1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSet1TableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.userlogin1DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet2.ClassListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet2.StudentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet2.ClassListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet2.StudentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet2.ClassListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet2.StudentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet2TableAdapters.ClassListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet2TableAdapters.StudentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(LoginForUsers.userlogin1DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(LoginForUsers.userlogin1DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(LoginForUsers.userlogin1DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LoginForUsers.userlogin1DataSet2TableAdapters.TableAdapterManager.UpdateAll(LoginForUsers.userlogin1DataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LoginForUsers.userlogin1DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
